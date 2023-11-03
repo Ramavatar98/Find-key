@@ -266,11 +266,3 @@ def mhex128():
     ua128 = str(random.choice('0123456789abcdef'))
     letgt = str(ua1) + str(ua2) + str(ua3) + str(ua4) + str(ua5) + str(ua6) + str(ua7) + str(ua8) + str(ua9) + str(ua10) + str(ua11) + str(ua12) + str(ua13) + str(ua14) + str(ua15) + str(ua16) + str(ua17) + str(ua18) + str(ua19) + str(ua20) + str(ua21) + str(ua22) + str(ua23) + str(ua24) + str(ua25) + str(ua26) + str(ua27) + str(ua28) + str(ua29) + str(ua30) + str(ua31) + str(ua32) + str(ua33) + str(ua34) + str(ua35) + str(ua36) + str(ua37) + str(ua38) + str(ua39) + str(ua40) + str(ua41) + str(ua42) + str(ua43) + str(ua44) + str(ua45) + str(ua46) + str(ua47) + str(ua48) + str(ua49) + str(ua50) + str(ua51) + str(ua52) + str(ua53) + str(ua54) + str(ua55) + str(ua56) + str(ua57) + str(ua58) + str(ua59) + str(ua60) + str(ua61) + str(ua62) + str(ua63) + str(ua64) + str(ua65) + str(ua66) + str(ua67) + str(ua68) + str(ua69) + str(ua70) + str(ua71) + str(ua72) + str(ua73) + str(ua74) + str(ua75) + str(ua76) + str(ua77) + str(ua78) + str(ua79) + str(ua80) + str(ua81) + str(ua82) + str(ua83) + str(ua84) + str(ua85) + str(ua86) + str(ua87) + str(ua88) + str(ua89) + str(ua90) + str(ua91) + str(ua92) + str(ua93) + str(ua94) + str(ua95) + str(ua96) + str(ua97) + str(ua98) + str(ua99) + str(ua100) + str(ua101) + str(ua102) + str(ua103) + str(ua104) + str(ua105) + str(ua106) + str(ua107) + str(ua108) + str(ua109) + str(ua110) + str(ua111) + str(ua112) + str(ua113) + str(ua114) + str(ua115) + str(ua116) + str(ua117) + str(ua118) + str(ua119) + str(ua120) + str(ua121) + str(ua122) + str(ua123) + str(ua124) + str(ua125) + str(ua126) + str(ua127) + str(ua128)
     return letgt
-
-# =====================================================
-# DONATE (BTC) : 16p9y6EstGYcnofGNvUJMEGKiAWhAr1uR8
-# Website : Mmdrza.Com
-# Email : X4@mmdrza.Com
-# Dev.to/Mmdrza
-# Github.com/Pymmdrza
-# =====================================================
