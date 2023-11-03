@@ -2,10 +2,10 @@
 
 # install this package 
   pip install hdwallet
-pip install colorama
+  pip install colorama
 
 # run
-Ritch.py
+python Richter.py
 
 # file name
 address.txt
