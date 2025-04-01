@@ -1,0 +1,28 @@
+name: keysubtrac Automation
+
+on:
+  workflow_dispatch:  # Manual Start
+  schedule:
+    - cron: "50 */6 * * *"  # Runs every 5 hours 50 minutes
+
+jobs:
+  run-keyhunt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          git clone https://github.com/Ramavatar98/keysubtrac.git
+          cd keysubtrac
+          make
+      - name: Run KeyHunt for 5 Hours 50 Minutes
+        run: |
+          cd keysubtrac 
+          timeout 20990  python3 run.py
+      - name: cat file
+        run: |
+          cd keysubtrac 
+          cat found_keys.txt
+      
