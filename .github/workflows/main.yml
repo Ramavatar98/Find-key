@@ -20,7 +20,7 @@ jobs:
       - name: Run KeyHunt for 5 Hours 50 Minutes
         run: |
           cd keysubtrac 
-          timeout 20990  python3 run.py
+          timeout 20990  python run.py
       - name: cat file
         run: |
           cd keysubtrac 
