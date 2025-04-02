@@ -21,7 +21,7 @@ jobs:
         run: |
           cd keysubtrac 
           timeout 20990  python run.py
-          
+          continue-on-error: true
       - name: cat file
         run: |
           cd keysubtrac 
