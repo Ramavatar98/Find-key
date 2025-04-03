@@ -16,12 +16,12 @@ jobs:
         run: |
           git clone https://github.com/Ramavatar98/keysubtrac.git
           cd keysubtrac
-          gcc run.c -o run -O2
+          gcc -O3 -march=native -o fast_search fast_search.c
           make
       - name: Run KeyHunt for 5 Hours 50 Minutes
         run: |
           cd keysubtrac 
-          timeout 20990  ./run
+          timeout 20990  ./fast_search
         continue-on-error: true
       - name: cat file
         run: |
