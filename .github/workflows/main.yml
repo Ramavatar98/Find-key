@@ -21,7 +21,7 @@ jobs:
       - name: Run KeyHunt for 5 Hours 50 Minutes
         run: |
           cd keysubtrac 
-          timeout 60  ./fast_search
+          timeout 20990  ./fast_search
         continue-on-error: true
       - name: cat file
         run: |
